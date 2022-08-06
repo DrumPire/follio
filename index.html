@@ -9,20 +9,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="navbar container">
-      <img src="img/logo.svg" alt="Logo" class="logo">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="/index.html" class="nav-link active">Главная</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+  <div class="navbar container">
+    <img src="img/logo.svg" alt="Logo" class="logo">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="/index.html" class="nav-link active">Главная</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header container">
+    <img src="img/avatar.jpg" alt="Alexey" class="header-photo">
+    <div class="header-text">
+      <strong class="header-strong">Привет 👋</strong>
+      <h1 class="header-heading">
+        <span class="header-primery">Я фронтенд-разработчик и веб-дизайнер <br></span>
+        Меня зовут Артем Исламов и я делаю сайты для людей и компаний
+      </h1>
+      <div class="header-links">
+        <ul class="social-list">
+          <li class="social-item"><a href="#" class="social-link"><img src="img/Icons/linkedin.svg" alt="linkedin" class="social-logo"></a></li>
+          <li class="social-item"><a href="#" class="social-link"><img src="img/Icons/twitter.svg" alt="twitter" class="social-logo"></a></li>
+          <li class="social-item"><a href="#" class="social-link"><img src="img/Icons/github.svg" alt="github" class="social-logo"></a></li>
+          <li class="social-item"><a href="#" class="social-link"><img src="img/Icons/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a></li>
+          <li class="social-item"><a href="#" class="social-link"><img src="img/Icons/youtube.svg" alt="youtube" class="social-logo"></a></li>
         </ul>
-      </nav>
+        <a href="#" class="cv-download" download>
+          <img src="img/Icons/download.svg" alt="download-icon" class="cv-icon">
+          <span class="cv-text">Скачать резюме</span>
+        </a>
+      </div>
     </div>
   </header>
 </body>
