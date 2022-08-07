@@ -243,4 +243,169 @@ body {
 .tags-item:not(:last-child) {
   margin-right: 4px;
 }
+
+.developer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px 0 20px;
+}
+
+.developer-photo {
+  width: 360px;
+  height: 440px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.developer-about {
+  margin-left: 55px;
+}
+
+.developer-hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  color: #211B12;
+}
+
+.developer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #BF7506;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.developer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+}
+
+.developer-sign {
+  max-width: 200px;
+}
+
+.motto {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #DD9C3C;
+}
+
+.skills {
+  padding: 20px 0;
+}
+
+.skills-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #211B12;
+}
+
+.feedback {
+  padding: 80px 0 160px;
+}
+
+.feedback-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  color: #211B12;
+}
+
+.form-container {
+  max-width: 435px;
+  margin: auto;
+}
+
+.input {
+  border: 3px solid #E0DEDC;
+  border-radius: 4px;
+  width: 435px;
+  height: 56px;
+}
+
+.input-group {
+  position: relative;
+  padding-top: 8px;
+  margin-bottom: 24px;
+}
+
+.input-label {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  height: 24px;
+  padding: 0 8px;
+  color: #83807c;
+  background: #FFFFFF;
+}
+
+.textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+.submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 8px;
+  margin-left: 55px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211B12;
+  border: none;
+  border-bottom: 2px solid #BF7506;
+  background: #fff;
+  cursor: pointer;
+}
+
+.button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+
+.footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.citata {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807C;
+}
 /*# sourceMappingURL=style.css.map */
